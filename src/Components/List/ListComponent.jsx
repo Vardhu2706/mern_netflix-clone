@@ -40,16 +40,16 @@ const ListComponent = () => {
           style={{ display: !isMoved && "none" }}
         />
         <div className="container" ref={listRef}>
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
-          <ListItemComponent />
+          <ListItemComponent index={0} />
+          <ListItemComponent index={1} />
+          <ListItemComponent index={2} />
+          <ListItemComponent index={3} />
+          <ListItemComponent index={4} />
+          <ListItemComponent index={5} />
+          <ListItemComponent index={6} />
+          <ListItemComponent index={7} />
+          <ListItemComponent index={8} />
+          <ListItemComponent index={9} />
         </div>
         <ArrowForwardIosOutlined
           className="sliderArrow right"
