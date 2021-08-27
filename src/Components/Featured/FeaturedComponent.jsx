@@ -8,6 +8,7 @@ import "./FeaturedStyles.scss";
 const FeaturedComponent = ({ type }) => {
   return (
     <div className="featured">
+      {/* Select Genres IF type given */}
       {type && (
         <div className="category">
           <span>{type === "movie" ? "Movies" : "Series"}</span>
@@ -28,17 +29,21 @@ const FeaturedComponent = ({ type }) => {
           </select>
         </div>
       )}
+
+      {/* Hero Image */}
       <img
         src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80"
         alt="profile_pic"
       />
 
+      {/* Title Image */}
       <div className="info">
         <img
           src="https://occ-0-1432-1433.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABUZdeG1DrMstq-YKHZ-dA-cx2uQN_YbCYx7RABDk0y7F8ZK6nzgCz4bp5qJVgMizPbVpIvXrd4xMBQAuNe0xmuW2WjoeGMDn1cFO.webp?r=df1"
           alt=""
         />
 
+        {/* Description of the movie/series */}
         <span className="desc">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
@@ -46,6 +51,8 @@ const FeaturedComponent = ({ type }) => {
           sint deleniti, aliquid qui? Facilis, adipisci! Ratione hic repudiandae
           temporibus eum earum?
         </span>
+
+        {/* Play and More Info buttons */}
         <div className="buttons">
           <button className="play">
             <PlayArrow />
