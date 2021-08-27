@@ -2,7 +2,7 @@
 
 // Importing Helpers/Components/Styles
 import "./App.scss";
-import Homepage from "./Homepage/Homepage.jsx";
+import Homepage from "./Screens/Homepage/HomepageScreen.jsx";
 
 // Functional Component
 function App() {

@@ -17,8 +17,6 @@ const NavbarComponent = () => {
     return () => (window.onscroll = null);
   };
 
-  
-
   // Return
   return (
     <div className={isScrolled ? "navbar scrolled" : "navbar"}>
