@@ -2,7 +2,7 @@
 
 // Importing Helpers
 import React, { useState, useRef } from "react";
-import { BsChevronRight } from "react";
+import { BsChevronRight } from "react-icons/bs";
 
 // Importing Styles
 import "./RegisterStyles.scss";
@@ -46,7 +46,7 @@ function RegisterPage() {
             <div className="input">
               <input type="email" placeholder="Email address" ref={emailRef} />
               <button className="registerButton" onClick={handleStart}>
-                Get Started
+                <span>Get Started</span>
               </button>
             </div>
           ) : (

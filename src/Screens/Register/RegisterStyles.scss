@@ -42,6 +42,7 @@
       background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
       position: absolute;
       display: flex;
+      margin-bottom: 90px;
       left: 0;
       top: 0;
       flex-direction: column;
@@ -69,18 +70,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 50px;
+        height: 55px;
         border-radius: 5px;
 
         input {
           flex: 9;
           height: 100%;
           border: none;
+          font-size: 20px;
           padding: 0 10px;
         }
 
         .registerButton {
-          flex: 3;
+          flex: 4;
           height: 100%;
           background-color: #e20813;
           border: none;

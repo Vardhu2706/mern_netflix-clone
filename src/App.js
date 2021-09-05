@@ -7,11 +7,13 @@ import "./App.scss";
 import Homepage from "./Screens/Homepage/HomepageScreen.jsx";
 import WatchPage from "./Screens/WatchPage/WatchPage";
 import RegisterPage from "./Screens/Register/RegisterPage";
+import LoginPage from "./Screens/Homepage/Login/LoginPage";
 
 // Functional Component
 function App() {
   return (
     <div className="App">
+      <LoginPage />
       <RegisterPage />
       {/* <Homepage /> */}
       {/* <WatchPage /> */}
